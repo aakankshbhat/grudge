@@ -24,7 +24,7 @@ from grudge.dof_desc import DD_VOLUME_ALL
 
 
 from pytools import memoize_in
-
+print("This works")
 def euler_step(y, t, h, f):
      return y + h*f(t, y)
 
